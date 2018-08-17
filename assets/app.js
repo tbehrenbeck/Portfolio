@@ -8,7 +8,7 @@
     });
 })(jQuery);
 
-
+/* Scroll Animation */
 $(document).ready(function () {
     $("#projectsLink").on('click', function (event) {
         event.preventDefault()
@@ -21,7 +21,6 @@ $(document).ready(function () {
         };
     });
 });
-
 $(document).ready(function () {
     $("#contactLink").on('click', function (event) {
         event.preventDefault()

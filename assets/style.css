@@ -3,8 +3,6 @@
   min-height: 550px;
   line-height: 0;
   height: auto;
-  color: #ffffff;
-  text-shadow: -.5px 0 #000000, 0 .5px #000000, .5px 0 #000000, 0 -.5px #000000 !important;
 }
 .parallax-container .section {
   width: 100%;
@@ -15,9 +13,29 @@
   color: #ffffff;
 }
 
+.links {
+  font-size: 1.2rem
+}
+
+.links:hover {
+  color: #0084b4;
+  background: none;
+}
+
+/* Title || Header */
+#headerText {
+  margin-top: 60px;
+  color: #ffffff;
+  text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000 !important;
+}
+
+.intro {
+  font-size: 1.2rem;
+}
 /* Footer */
 footer.page-footer {
   margin: 0;
+  background-color: #c0deed
 }
 
 @media screen and (max-width : 992px) {
