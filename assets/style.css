@@ -32,6 +32,25 @@
 .intro {
   font-size: 1.2rem;
 }
+
+/* Project section */
+#projectRow {
+  margin: 55px 0 55px 0;
+}
+
+#projectDesc {
+  margin: 58px 0 0 0;
+}
+
+/* Project Links */
+.projectLink {
+  color: #000000;
+}
+
+.projectLink:hover {
+  color: #0084b4;
+}
+
 /* Footer */
 footer.page-footer {
   margin: 0;
