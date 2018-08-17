@@ -8,89 +8,116 @@
     <title>Tommie Behrenbeck</title>
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
-    <!--css-->
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--CSS-->
     <link href="assets/style.css" rel=stylesheet type="text/css">
 </head>
 
 <body>
 
-    <div id="title" class="block red lighten-1">
-        <nav class="pushpin pin-top" data-target="red" style="top: 0px;">
-            <div class="nav-wrapper red">
-                <div class="container">
-                    <a href="#" class="brand-logo">Tommie Behrenbeck</a>
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="#!">Projects</a></li>
-                        <li><a href="#!">Contact</a></li>
-                    </ul>
-                </div>
+    <!--Title Content-->
+    <div id="index-banner" class="parallax-container">
+        <nav class="transparent z-depth-0" role="navigation">
+            <div class="nav-wrapper container">
+                <a id="logo-container" href="#" class="brand-logo white-text">Tommie Behrenbeck</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a class="white-text" href="#">Projects</a></li>
+                    <li><a class="white-text" href="#">Contact</a></li>
+                </ul>
+                <ul id="nav-mobile" class="sidenav">
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             </div>
         </nav>
+
+        <div class="section no-pad-bot">
+            <div class="container">
+                <br><br>
+                <h1 class="header center teal-text text-lighten-2">text text</h1>
+                <div class="row center">
+                    <h5 class="header col s12 light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam atque
+                        distinctio error obcaecati deleniti optio omnis debitis similique! Quaerat maiores magnam sunt voluptatum
+                        impedit quisquam laudantium ratione perspiciatis sapiente doloribus.</h5>
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="assets/images/background3.jpg" alt="Unsplashed background img 1"></div>
     </div>
-    <div id="block2" class="block">
+
+
+    <div class="container">
+        <div class="section">
+
+            <!--Portfolio Pieces-->
+            <div class="row">
+                <div class="col s12 m6">
+                    <img src="assets/images/computer.png" alt="project1" style="height: 250px">
+                </div>
+                <div class="col s12 m6">
+                    <h3>project 1</h3>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col s12 m6">
+                    <img src="assets/images/computer.png" alt="project1" style="height: 250px">
+                </div>
+                <div class="col s12 m6">
+                    <h3>Homework 1</h3>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col s12 m6">
+                    <img src="assets/images/computer.png" alt="project1" style="height: 250px">
+                </div>
+                <div class="col s12 m6">
+                    <h3>Homework 2</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer blue">
         <div class="container">
             <div class="row">
-                <div class="col m12 center">
-                    <h1>Project 1</h1>
-                </div>
-            </div>
-            <hr>
-            <div class="row">
-                <div class="col m12 center">
-                    <h1>Homework 1</h1>
-                </div>
-            </div>
-            <hr>
-            <div class="row">
-                <div class="col m12 center">
-                    <h1>Homework 2</h1>
-                    <hr>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="block3" class="testblock">
-        <div class="row">
-            <div class="col m6 center">
-                <img src="http://via.placeholder.com/150x150"><br>
-                <button>link</button> <button>link</button> <button>link</button> <button>link</button>
-            </div>
-            <div class="col m6 center">
-                <div class="row">
-                    <form class="col s12">
-                        <div class="row">
-                            <div class="input-field col s6">
-                                <input placeholder="Placeholder" id="first_name" type="text" class="validate">
-                                <label for="first_name">Name</label>
-                            </div>
-                            <div class="row">
-                                <div class="input-field col s6">
-                                    <input id="email" type="email" class="validate">
-                                    <label for="email">Email</label>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <form class="col s12">
-                                    <div class="row">
-                                        <div class="input-field col s12">
-                                            <textarea id="textarea1" class="materialize-textarea"></textarea>
-                                            <label for="textarea1">Textarea</label>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </form>
+                <div class="col s12 m6">
+                    <div class="center">
+                        <img src="assets/images/prof.jpg" style="height:150px">
+                        <h5 class="white-text">Contact Me</h5>
+                        <button>Git</button> <button>Linkedin</button> <button>email</button>
                     </div>
                 </div>
+                <div class="col s12 m6">
+                    <form action="mailer.php" id="contact-form" method="post" name="contact-form">
+                        <div class="buffer-bottom"><input type="text" name="name" placeholder="Name" required="" id="field1">                            <input
+                                type="email" name="email" placeholder="Email" required=""> <input type="text" name="phone" placeholder="Phone"
+                                required=""></div>
+                        <div class="buffer-bottom"><textarea class="message" name="message" placeholder="Message" required=""
+                                rows="6"></textarea></div><span id="submit-response"></span><div class="pull-right"><input type="submit"
+                                class="button" value="send"></div>
+                    </form>
+                </div>
+
             </div>
         </div>
+        <div class="footer-copyright">
+            <div class="container center">
+                <a class="brown-text text-lighten-3" href="#">TBehrenbeck</a>
+            </div>
+        </div>
+    </footer>
 
-        <!-- jquery -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <!-- Compiled and minified JavaScript -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
-        <!--Javascript-->
-        <script src="assets/app.js"></script>
+
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <!--Javascript-->
+    <script src="assets/app.js"></script>
 </body>
 
 </html>
