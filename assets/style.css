@@ -14,7 +14,8 @@
 }
 
 .links {
-  font-size: 1.2rem
+  font-size: 1.2rem;
+  text-shadow: -.5px 0 #000000, 0 .5px #000000, .5px 0 #000000, 0 -.5px #000000 !important;
 }
 
 .links:hover {
@@ -55,6 +56,10 @@
 footer.page-footer {
   margin: 0;
   background-color: #c0deed
+}
+
+form {
+  background-color: white;
 }
 
 @media screen and (max-width : 992px) {
