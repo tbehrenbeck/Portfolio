@@ -93,37 +93,22 @@
             <div class="row">
                 <div class="col s12 m6">
                     <div class="center">
-                        <img src="assets/images/prof.jpg" style="height:150px">
+                        <img id="prof" src="assets/images/prof.jpg">
                         <div class="box">
-                            <h5 class="black-text">Contact Me</h5>
+                            <h5 id="contact">Contact Me</h5>
                         </div>
-                        <button>
-                            <i class="fab fa-github-square"></i>
-                        </button>
-                        <button>
-                            <i class="fab fa-linkedin"></i>
-                        </button>
-                        <button>
-                            <i class="fas fa-envelope"></i>
-                        </button>
+                        <a href="https://github.com/tbehrenbeck" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
+                        <a href="https://www.linkedin.com/in/tbehrenbeck/" > <i class="fab fa-linkedin fa-2x"></i></a>
+                        <a href="mailto:behrenbt@gmail.com?" target="_top"><i class="fas fa-envelope fa-2x"></i></a>
+</p>
                     </div>
                 </div>
-                <div class="col s12 m6">
-                    <form action="mailer.php" id="contact-form" method="post" name="contact-form">
-                        <div class="buffer-bottom"><input type="text" name="name" placeholder="Name" required="" id="field1">                            <input
-                                type="email" name="email" placeholder="Email" required=""> <input type="text" name="phone" placeholder="Phone"
-                                required=""></div>
-                        <div class="buffer-bottom"><textarea class="message" name="message" placeholder="Message" required=""
-                                rows="6"></textarea></div><span id="submit-response"></span><div class="pull-right"><input type="submit"
-                                class="button" value="send"></div>
-                    </form>
-                </div>
-
+                form
             </div>
         </div>
         <div class="footer-copyright">
             <div class="container center">
-                <a class="brown-text text-lighten-3" href="#">TBehrenbeck</a>
+                <a class="brown-text text-lighten-3">TBehrenbeck</a>
             </div>
         </div>
     </footer>
@@ -135,4 +120,5 @@
     <!--Javascript-->
     <script src="assets/app.js"></script>
 </body>
+
 </html>

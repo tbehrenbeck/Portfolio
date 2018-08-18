@@ -55,7 +55,28 @@
 /* Footer */
 footer.page-footer {
   margin: 0;
-  background-color: #c0deed
+  background-color: #eeeeee;
+}
+
+#prof {
+  height: 175px;
+  border-radius: 50%;
+}
+
+#contact {
+  font-size: 1.5rem;
+  color: #0084b4;
+  text-decoration: underline;
+}
+
+.fab {
+  color: #0084b4;
+  padding: 3px;
+}
+
+.fas {
+  color: #0084b4;
+  padding: 3px;
 }
 
 form {
