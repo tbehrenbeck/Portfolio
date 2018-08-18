@@ -63,8 +63,6 @@ footer.page-footer {
   background-color: #f9f9f9 !important;
 }
 
-
-
 #prof {
   height: 175px;
   border-radius: 50%;
@@ -86,8 +84,27 @@ footer.page-footer {
   padding: 3px;
 }
 
+/* Contact Form */
 form {
-  background-color: white;
+  background-color: #ffffff;
+}
+
+#contactForm {
+  margin-bottom: 0px;
+}
+
+.input-field {
+  /* background-color: #f9f9f9; */
+  border-radius: 25px;
+}
+
+#send {
+  border: 1px solid #0084b4;
+}
+
+#send:hover {
+  background-color: #0084b4;
+  color: #ffffff;
 }
 
 @media screen and (max-width : 992px) {
