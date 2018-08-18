@@ -13,6 +13,10 @@
   color: #ffffff;
 }
 
+.nav-wrapper {
+  z-index: 1;
+}
+
 .links {
   font-size: 1.2rem;
   margin: 0 8px;
@@ -26,7 +30,7 @@
 
 /* Title || Header */
 #headerText {
-  margin-top: 60px;
+  margin-top: 120px;
   color: #ffffff;
   text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
 }
@@ -131,13 +135,49 @@ form {
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
-    
+  #logo-container {
+    font-size: 1rem;
+  }
+  .header {
+    font-size: 3rem;
+  }
+  .intro{
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+  .computer {
+    height: 190px;
+  }
+  #projectDesc {
+    text-align: center;
+    margin: 0px;
+  }
+  #socials {
+    margin: 0 0 20px 0;
+  }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
   #index-banner .section {
     top: 0;
+  }
+  #logo-container {
+    font-size: 1.5rem;
+  }
+  .header {
+    font-size: 3.2rem;
+  }
+  .intro{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+  .computer {
+    height: 300px;
+  }
+  #projectDesc {
+    text-align: center;
+    margin: 0px;
   }
 }
 
@@ -147,9 +187,8 @@ form {
     height: 400px;
   }
   #projectDesc {
-    width: 50%;
-    text-align: left;
-    margin: 0% 0 0 30%;
+    text-align: center;
+    margin: 0px;
   }
 }
 
@@ -163,7 +202,8 @@ form {
     height: 255px;
   }
   #projectDesc {
-    margin: 20px 0 0 40px;
+    margin: 8px 0 0 40px;
+    text-align: left;
   }
 }
 
@@ -173,8 +213,9 @@ form {
     height: 300px;
   }
   #projectDesc {
-    margin: 30px 0 0 70px;
+    margin: 20px 0 0 70px;
     padding-right: 0px;
+    text-align: left;
   }
 }
 
@@ -185,5 +226,6 @@ form {
   }
   #projectDesc {
     margin: 30px 0 0 70px;
+    text-align: left;
   }
 }

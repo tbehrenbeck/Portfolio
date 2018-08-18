@@ -11,25 +11,25 @@
 /* Scroll Animation */
 $(document).ready(function () {
     $("#projectsLink").on('click', function (event) {
-        event.preventDefault()
+        event.preventDefault();
         var hash = this.hash;
 
         if ($(hash).offset()) {
             $('html, body').animate({
                 scrollTop: $(hash).offset().top
             }, 800, function () { });
-        };
+        }
     });
 });
 $(document).ready(function () {
     $("#contactLink").on('click', function (event) {
-        event.preventDefault()
+        event.preventDefault();
         var hash = this.hash;
 
         if ($(hash).offset()) {
             $('html, body').animate({
                 scrollTop: $(hash).offset().top
             }, 800, function () { });
-        };
+        }
     });
 });
