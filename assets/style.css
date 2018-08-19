@@ -141,9 +141,9 @@ form {
   .header {
     font-size: 3rem;
   }
-  .intro{
+  .typewriter{
     font-size: 1rem;
-    line-height: 1.2rem;
+    line-height: 1.5rem;
   }
   .computer {
     height: 190px;
@@ -168,9 +168,8 @@ form {
   .header {
     font-size: 3.2rem;
   }
-  .intro{
+  .typewriter{
     font-size: 1.2rem;
-    line-height: 1.5rem;
   }
   .computer {
     height: 300px;
@@ -190,6 +189,24 @@ form {
     text-align: center;
     margin: 0px;
   }
+
+  .typewriter h6 {
+    font-size: 1.1rem;
+    font-family: monospace;
+    overflow: hidden;
+    white-space: nowrap;
+    letter-spacing: .01em;
+    animation: 
+      typing 5s steps(300, end),
+      blink-caret 1s step-end infinite;
+  }
+
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
 }
 
 /* Medium Devices, Desktops */
