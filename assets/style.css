@@ -136,7 +136,7 @@ form {
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
   #logo-container {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   .header {
     font-size: 3rem;
